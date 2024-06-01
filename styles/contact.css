@@ -35,7 +35,11 @@ max-width: 400px;
 font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;}
 
+label {display: block;}
 
+input {display: block;}
+
+textarea{width: 350px; }
 
 #nav-items{
 
@@ -57,7 +61,8 @@ main {
 .aboutme {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
     color: var(--primary-color);
-
+    margin-left: 100px;
+    margin-top: 100px;
    }
 
 .aboutmecopy {margin-left: 200px;
@@ -109,20 +114,14 @@ footer {
 
 .myhead{ display: grid;
     place-items: center;
-    justify-content: center;
     margin: 100px;
 }
 
-.myhead img {justify-content: center;
-    width: 900px;
-    height: 500px;
+.myhead img {
+    width: 300px;
+    height: 300px;
  
 }
-
-.post img {display: grid;
-    place-items: center;
-width: 1300px;
-justify-content: center;}
 
 @media screen and (max-width: 600px){
     header{
