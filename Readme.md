@@ -1,5 +1,6 @@
 This is my portfolio website.
 
+weblink: https://splendorous-tanuki-d12473.netlify.app/
 
 
 Contact page:

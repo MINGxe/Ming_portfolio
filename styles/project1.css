@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    height: 500px;
+    
     padding: 16px;
 
 }
@@ -38,13 +38,18 @@ font-family: Arial, Helvetica, sans-serif;}
 
 
 #nav-items{
-
-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+margin-top: 130px;
+color: #d9d9d9;
 width:100%;
 display: flex;
-justify-content: space-around;
+gap: 50px;
 font-size: 18px;
 }
+
+#nav-items a {color: aliceblue;text-decoration: none;}
+
+#nav-items a:hover{text-decoration: underline;}
 
 main {
     background-color: aquamarine;
@@ -57,7 +62,8 @@ main {
 .aboutme {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
     color: var(--primary-color);
-
+    margin-left: 100px;
+    margin-top: 100px;
    }
 
 .aboutmecopy {margin-left: 200px;
@@ -67,7 +73,10 @@ margin-bottom: 100px;}
 
 
 .main3 {
-    background-color: #4832d4;}
+    background-color: #4832d4;
+}
+
+img{width: 1200px;}
 
 article {
     margin-top: 100px;
@@ -109,26 +118,31 @@ footer {
 
 .myhead{ display: grid;
     place-items: center;
-    justify-content: center;
     margin: 100px;
 }
 
-.myhead img {justify-content: center;
-    width: 900px;
-    height: 500px;
+.myhead img {
+    width: 300px;
+    height: 300px;
  
 }
-
-.post img {display: grid;
-    place-items: center;
-width: 1300px;
-justify-content: center;}
 
 @media screen and (max-width: 600px){
     header{
 display:flex;
 align-items: flex-end;
 justify-content: space-between;}
+
+img{width: 500px;}
+
+#nav-items  {
+flex-direction: column;}
+
+.aboutme {margin: 10px;}
+
+.aboutmecopy { margin: 20px;}
+
+.myhead {margin: 0;}
 
 .name {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
