@@ -38,13 +38,18 @@ font-family: Arial, Helvetica, sans-serif;}
 
 
 #nav-items{
-
-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+margin-top: 130px;
+color: #d9d9d9;
 width:100%;
 display: flex;
-justify-content: space-around;
+gap: 50px;
 font-size: 18px;
 }
+
+#nav-items a {color: aliceblue;text-decoration: none;}
+
+#nav-items a:hover{text-decoration: underline;}
 
 main {
     background-color: aquamarine;
@@ -124,6 +129,15 @@ footer {
 display:flex;
 align-items: flex-end;
 justify-content: space-between;}
+
+#nav-items  {
+flex-direction: column;}
+
+.aboutme {margin: 10px;}
+
+.aboutmecopy { margin: 20px;}
+
+.myhead {margin: 0;}
 
 .name {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
